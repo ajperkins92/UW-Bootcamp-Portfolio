@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Basic Portfolio from earlier but using media queries to create responsivity
+# Basic-Portfolio
+This is the harder of the two assignment portfolios
