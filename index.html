@@ -1,49 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Alex Perkins</title>
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Alex Perkins | Web Developer</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css" media="screen">
+
 </head>
 
 <body>
-
-  <header id="masthead">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a href="index.html" id="logo">Alex Perkins</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Alex Perkins</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-  </header>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="./assets/images/Bizible Portrait.jpg" class="auth-image" alt="Alex Perkins">
-
-      <p>HI! My name is Alex Perkins and I'm so glad to have you visiting my portfolio!</p>
-
-      <p>I'm from a small town in southern Minnesota called Northfield, studied Biology at Iowa State, and moved out to Seattle 4 years ago with my beautiful wife, Waverly, and our two pet bunnies.</p>
-
-      <p>I'm currently working at a startup, SkyKick, as a Technical Account Manager, helping Microsoft-partnering Managed Service Providers with their Office 365 Cloud migrations and Backup Services.</p>
-
-      <p>My professional interests include full-stack development, IT, entrepreneurship, startups, account management, and custom API integration.</p>
-
+  <!-- Start of container -->
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">About Me</h1>
+          <hr />
+          <img src="./assets/images/Bizible Portrait.jpg" alt="Alex Perkins" id="about-image" />
+          <p>Hey, thanks for visiting my portfolio page! My name is Alex Perkins and I'm a part-time student through the
+            University of Washington's Full-Stack Web Development Bootcamp.</p>
+          <br />
+          <p>My professional interests include cloud computing, Platform-as-a-Service (PaaS), UX/UI, and sales
+            engineering/solutions architecture. Through the combination of my current work as a Technical Account
+            Manager at SkyKick, as well as this program, I'm fortunate to spend a large amount of time honing and
+            refining these interests!
+          </p>
+          <br />
+          <p>When I'm not at work or studying, I can be found exploring some of the many great National and State Parks
+            the Pacific Northwest has to offer, playing guitar, reading, spending time with my beautiful wife Waverly,
+            and hanging out with our two pet bunnies, Sage and Juniper.
+          </p>
+        </article>
+      </div>
     </section>
+  </main>
+  <!-- End of container -->
 
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
+  <!-- Start of footer -->
+  <footer class="footer footer-dark bg-dark">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright
+    </p>
   </footer>
+  <!-- End of footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
